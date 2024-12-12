@@ -10,7 +10,7 @@ function App() {
     username:"Anubhav",
     age:20
   }
-  let newAray=[1,2,3,4,5,6,7,8,9]
+  let newArray=[1,2,3,4,5,6,7,8,9]
 
   return (
     <>

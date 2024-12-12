@@ -5,13 +5,16 @@ import './App.css'
 
 function App() {
   // let counter= 15;
-  let [counter,setCounter] = useState(0)
+  const [counter,setCounter] = useState(0)
 
   const addValue = () => {
-  setCounter(counter+1)
+  setCounter(counter=>counter+1)   // counter=> counter+1 is used for the more than 1 increment 
+  setCounter(counter=>counter+1)   // use counter+1 for 1 increament
+  setCounter(counter=>counter+1)
+  setCounter(counter=>counter+1)
   }
   const removeValue = () => {
-    setCounter(counter-1)
+    setCounter(counter-1)   
   }
   return (
     <>
